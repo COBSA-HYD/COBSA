@@ -1,0 +1,143 @@
+{% load staticfiles %} 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>COBSA</title>
+<link rel="stylesheet" type="text/css" href="{% static "css/Home style.css" %}" />
+<link rel="icon" href="favicon.png" type="image/png" sizes="40x30"/>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="{% static "js/index.js" %}"></script>
+
+</head>
+
+<body style="margin:0">
+<div width="100%" border="0" id="banniere">
+<img src="{% static "images/ban.jpg" %}" width="100%" />
+</div>
+<div style="background-image: url(../images/menu.png)" id="menu1" width="100%">
+    <ul id="menu">
+	    <li><span></span><a href="Index.html">HOME</a></li>
+	    <li><span></span><a href="#">NEWS</a></li>
+	    <li><span></span><a href="#">COBSA</a>
+	    	<ul>
+	    		<li><a href="#">HYDERABAD</a></li>
+	    		<li><a href="#">NEW DEHLI</a></li>
+	    		<li><a href="#">PUNE</a></li>
+	    		<li><a href="#">BANGALORE</a></li>
+	    	</ul>
+	    </li>
+    	<li><span></span><a href="#">MEDIA</a>
+    		<ul>
+    			<li><a href="#">ANNONCES</a></li>
+    			<li><a href="#">IMAGES</a></li>
+    			<li><a href="#">VIDEOS</a></li>
+    		</ul>
+    	<li><a href="Links.html">LINKS</a></li>
+    	</li>
+	    <li><span></span><a href="contact.html">CONTACT</a></li>
+    </ul>
+</div>
+<br/>
+<br/>
+	<!-- -----------------------------------------------------
+	<table width="1024px" height="350px" border="1" align="center">
+		<tr>
+			-->
+		<div id="captioned-gallery" align="center">
+			<figure class="slider">
+				<figure>
+				<img src="{% static "images/gal1.jpg" %}" width="1024px" height="350px" alt="My image"/>
+				<figcaption>COBSA</figcaption>
+			</figure>
+			<figure>
+				<img src="{% static "images/gal2.jpg" %}" width="1024px" height="350px" alt>				
+				<figcaption>OUR MOTTO</figcaption>
+			</figure>
+			<figure>
+				<img src="{% static "images/gal3.jpg" %}" width="1024px" height="350px" alt>				
+				<figcaption>UNITY</figcaption>
+			</figure>
+			<figure>
+				<img src="{% static "images/gal4.jpg" %}" width="1024px" height="350px" alt				
+				<figcaption>EDUCATION</figcaption>
+			</figure>
+			<figure>
+				<img src="{% static "images/gal5.jpg" %}" width="1024px" height="350px" alt>				
+				<figcaption>DEVELOPEMENT</figcaption>
+			</figure>
+			</figure>
+		</div>
+		</tr>
+	</table>
+	<br/>
+	<table width="1024px" height="350px" border="0" align="center" id="table_garde">
+		<tr>
+		  <td background="images/img_garde.jpg" width="690px" class="img_garde">		  
+		  <div>
+		  NEWS
+		  </div>
+		  <br/>
+		  <div>
+		  <img src="{% static "images/img_garde.jpg" %}" width="690px" height="350px">
+		  </div>
+		  </td>
+		  <td width="74px"></td>
+		  <td width="260px"><div>
+		  	<form>
+		  	<h1 id="signup">Login</h1>
+		  	<div id="login">
+		  		<input id="name" placeholder="ID" style="opacity: 1; background-color: rgb(255, 255, 255)";/>
+		  		<input id="pass" type="password" placeholder="Password" style="opacity: 1; background-color: rgb(255, 255, 255)";/>
+		  		<img src="{% static "images/getaccess.png" %}" width="160" height="60" class="btn" name="
+		  		login" onclick="">
+
+		  	</div>
+		  	</form>
+		  	<br/>
+		  	<br/>
+		  	<div id="signup_btn">
+		  		<img src="{% static "images/signup.png" %}" width="100px" height="35" a href="Signup.html"/>
+		  	
+		  </div>
+    		    
+        		
+        	</td>
+        </tr>
+	
+    </table>
+    <br/>
+	<table width="1024px" height="350px" border="1" align="center" id="table_garde">
+		<tr>
+		  <td width="690px">ACTUALITE BREF</td>
+		  <td width="74px">ESPACE</td>
+		  <td width="260px"></td>
+
+		</tr>
+    </table>
+
+    <table width="1024px" height="200px" border="1" align="center" id="table_garde">
+		<tr>
+		  <td width="400px">ANNONCES</td>
+		  <td width="324px">PHOTO</td>
+		  <td width="300px">VIDEO</td>
+
+		</tr>
+    </table>
+    <br/>
+    <table width="1024px" height="200px" border="1" align="center" id="table_garde">
+		<tr>
+		 <td>IMG FOOTER</td>
+		</tr>
+    </table>
+    <br/>
+    <table width="1024px" height="150px" border="0" align="center" id="footer">
+		<tr>
+		 <td>IMG FOOTER</td>
+		</tr>
+    </table>
+    <br/>
+</body>
+</html>
